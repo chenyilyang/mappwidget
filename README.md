@@ -1,27 +1,39 @@
-![mAppWidget](images/app_screenshot.png)
+![mAppWidget](images/app_anim.gif)
 
-# Offline custom maps library for Android
-mAppWidget is a code library designed for rapid design and integration of custom maps for Android mobile apps.
+Map services are a major growth area for mobile applications. Services like Google maps have brought map technology to the masses in recent years, but it has been hard to integrate them into applications as Google maps and others require a constant Internet connection and use proprietary resources. This means that if the app has to work offline, use original graphics or other features, a custom map has to be built.
 
-### Description
-The repository contains the library, demo application and Eclipse plugin for maps slicing.
-The library and demo application are Android Eclipse projects (uses ANT build system). Slicing plugin is an Eclipse plugin.
+At Lemberg we’ve developed many Android apps with custom maps, and to streamline this process we came up with the mAppWidget code library.
 
-### How to use a library
-To use the library just download and import it in your existing workspace.
-Next you will have to add MapWidget view yo your layout and initialize it. Refer to BrowseMapActivity activity in mAppWigetDemo project for details.
-To generate Javadocs execute the following command:
-```
-and javadoc
-```
-in mAppWidget directory. As a result "doc" directory will be created there.
+![ill](images/ill-3_1.jpg)
 
-### How to use slicing tool
-Open Eclipse Standard 4.3.2 and import "slicingtool" project.
-Now run this project as "Eclipse Application". As a result new Eclipse instance will be launched. Open "Map Slicing Tool" window:
+Designed to simplify custom map building, mAppWidget is a powerful tool that significantly cuts time and reduces the cost of the developing offline maps. Now any Android developer can benefit from our experience.
 
-![plugin](images/plugin_screenshot.png)
+Using apps developed with mAppWidget is possible without data connection, unlike most of the other solutions. mAppWidget also uses a tiling technique for graphics that generates a larger map byre-using smaller images (tiles). This approach saves RAM and increases real-time performance, which is especially important on mobile devices. Zooming into images is not limited by the resolution of the input map image, as beyond the maximum zoom level of the image, the library uses digital zoom.
 
-and specify map source and slicing parameters.
-The result of slicing are one XML and a bunch of PNG files in specified directory tree.
-This directory tree should be placed in your project "assets" directory.
+## Features
+* Create map from any image
+* Tile engine rendering
+* GPS support
+* Zoom in/out
+* Pinch to zoom gesture
+* Zoom on double tap
+* Digital zoom
+* Pan
+* Inertial scroll
+* Smooth tiles appearing
+* Support of more than one map per application
+* Ability to move the map object after it was added to the map
+* Add/remove layers
+* Add/remove objects
+* Click handlers/info bubbles
+* Works offline
+* External storage support
+
+## Requirements
+* Android API 7 or higher
+* Android OS 2.1 or higher
+* Latest JDK, Eclipse recommended
+
+## How to use
+Here you can find information on how to use mAppWidget library and FAQ's - 
+[http://lemberg.github.io/mappwidget/user_guide.html](http://lemberg.github.io/mappwidget/user_guide.html)
