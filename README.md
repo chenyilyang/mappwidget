@@ -34,6 +34,10 @@ Using apps developed with mAppWidget is possible without data connection, unlike
 * Android OS 2.1 or higher
 * Latest JDK, Eclipse recommended
 
+## Demo app
+mAppWidget demo is available for download on Google Play - 
+[https://play.google.com/store/apps/details?id=com.ls.mappwidgetdemo](https://play.google.com/store/apps/details?id=com.ls.mappwidgetdemo)
+
 ## How to use
 Here you can find information on how to use mAppWidget library and FAQ's - 
 [http://lemberg.github.io/mappwidget/user_guide.html](http://lemberg.github.io/mappwidget/user_guide.html)
