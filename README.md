@@ -41,3 +41,6 @@ mAppWidget demo is available for download on Google Play -
 ## How to use
 Here you can find information on how to use mAppWidget library and FAQ's - 
 [http://lemberg.github.io/mappwidget/user_guide.html](http://lemberg.github.io/mappwidget/user_guide.html)
+
+## Proudly brought to you
+mAppWidget code library has been developed and open sourced by Lemberg Solutions Android development team. If you are interested in integration or customization of the mAppWidget or looking for any other mobile app development solution please feel free to reach us - [http://lemberg.co.uk](http://lemberg.co.uk).
